@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/apiDatos/")
+@CrossOrigin(origins = "http://localhost:4200")
 public class CurriculumController {
 
     @Autowired
